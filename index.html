@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML: victomina</title>
+    <!--importante!!-->
+    <!--a tag style é aonde botamos o css-->
+    <style>
+        h1 {
+            background: rgb(21, 194, 59);
+        }
+
+        h2 {
+
+            background: rgb(54, 18, 214);
+        }
+    </style>
+    <!--a cor de background que prevalece é a última-->
+</head>
+
+<body>
+    <h1 id="texto-uno" class="fundo-vermelho borda-esquerda">
+        <b>Negro negrito</b> Isso é um cabeçalho ou um título.
+        
+    </h1>
+    <!-- a tag <b> é usada pra marcar, portanto um estado físico, enquanto a tag <strong> é semântica-->>
+    <h2>
+        isso é um texto de h2
+        Pode-se botar um paragrafo aqui <br>
+        Eu quero abrir um link pra o meu GitHub, logo temos:
+        <a href="https://github.com/victomina" target="_blank"> 
+            <img src="https://avatars.githubusercontent.com/u/18745876?v=4" alt="Profile Photo" width="100">
+            <small>Clicar na imagem</small> 
+        </a>
+        
+    </h2>
+    <h3>isso <b>é um texto</b> de h3
+        Pode-se 
+    </h3>
+    <h4>isso é um texto de h4</h4>
+    <h5>isso é um texto de h5</h5>
+    <h6>isso é um texto de h6</h6>
+
+    <p>
+        Isso é um parágrafo <b class="bold">qualquer</b>.
+    </p>
+    <h1 id="texto-due" class="fundo-vermelho">
+        Isso é outro cabeçalho <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing  A repudiandae ipsum perferendis, repellendus fugiat quos iste incidunt laudantium voluptates natus? Blanditiis, atque. Doloribus, quaerat quo. Laudantium explicabo pariatur commodi quasi?
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quam fugiat odit deleniti repellendus? Molestias illo,
+        aliquam ullam fugit ipsam obcaecati vel perspiciatis ab ipsum eligendi?
+        Debitis similique dolor totam ab!
+        <blockquote cite="Url da citação">Aqui podemos botar uma citação</blockquote>
+    </p>
+
+    <p>Aqui seria outro parágrafo para podermos escrever algo relevante
+        pode-se até botar um a linha de código:
+        <code>console.log</code>
+        para deixarmos um código formatado no texto podemos fazer o seguinte:
+        <pre>
+
+            let soma = 0;
+            inputMais.forEach((input) => {
+                const valor = input.value;
+                const numero = Number(valor);
+
+                if (numero){
+                    soma += numero;
+                }
+                console.log(soma);
+            })
+        </pre>
+    </p>
+    <br>
+    <!--isso é uma tag de quebra de linha-->
+    <span>Isso é uma tag de spam</span>
+    <br>
+    <!--isso é uma tag de quebra de linha-->
+</body>
+
+</html>
